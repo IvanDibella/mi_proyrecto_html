@@ -1,14 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: yellowgreen;
     padding: 10px;
     margin: 10px;
     border: 2px solid black;
+    min-height: 10vh;
+}
+
+main {
+    min-height: 89vh;
 }
 
 h1 {
@@ -17,17 +22,14 @@ h1 {
 }
 
 nav {
-   background-color: black;
-   text-align: center;
-    
+    background-color: black;
+    text-align: center;
 }
 
 nav>a {
     margin-left: 15px;
     color: greenyellow;
     text-decoration: none
-    
-    
 }
 
 #presentation {
@@ -35,8 +37,8 @@ nav>a {
     background-color: yellowgreen;
     padding: 10px;
     margin: 10px;
-    border: 2px solid black
-    
+    border: 2px solid black;
+    text-decoration-line: underline;
 }
 
 h2 {
@@ -64,7 +66,7 @@ h4 {
 .categories {
     display: inline-block;
     padding: 50px;
-    margin-left: 500px;
+    margin-left: 510px;
     margin-top: 100px;
     border: 3px groove black;
     background-color: yellowgreen;
@@ -100,10 +102,7 @@ footer {
     background-color: yellowgreen;
     text-align: center;
     margin-top: 10px;
+    padding: 5px;
     border: 2px solid black;
-}
-
-.imagescate {
-    object-fit: cover;
-    width: 50px;
+    min-height: 1vh;
 }
