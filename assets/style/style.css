@@ -167,7 +167,8 @@ img {
 
 .value {
     position: relative;
-    top: 20px;
+    top: 60px;
+    font-size: 30px;
 }
 
 footer {
